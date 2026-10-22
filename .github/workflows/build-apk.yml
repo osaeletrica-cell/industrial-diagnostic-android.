@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extrair projeto Android
-        run: unzip -o source.zip -d .
+        run: unzip -o industrial_diagnostic_android_source_for_github.zip -d .
 
       - name: Configurar Java 17
         uses: actions/setup-java@v4
